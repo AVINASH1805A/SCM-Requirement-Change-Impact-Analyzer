@@ -1,0 +1,612 @@
+[
+  {
+    "rev_id": 1,
+    "revision_number": "r1",
+    "branch": "main",
+    "timestamp": "2026-08-26 16:29:21",
+    "author": "System Admin <admin@project.com>",
+    "message": "r1: Baseline initial system requirement specifications",
+    "changed_req_id": null,
+    "snapshot": [
+      {
+        "id": "REQ-101",
+        "title": "User Authentication & Sign-in",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "APPROVED",
+        "description": "User sign-in using email address and password credentials.",
+        "version": "1.0",
+        "author": "Alice (Product Manager)"
+      },
+      {
+        "id": "REQ-102",
+        "title": "Two-Factor Authentication (OTP)",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "PROPOSED",
+        "description": "Optional SMS/Email One-Time Password verification upon user sign-in.",
+        "version": "1.1",
+        "author": "Bob (Security Lead)"
+      },
+      {
+        "id": "REQ-103",
+        "title": "Shopping Cart & Checkout Flow",
+        "category": "E-Commerce Core",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Allows registered users to add items to cart, calculate tax, and proceed to payment.",
+        "version": "1.0",
+        "author": "Charlie (PM)"
+      },
+      {
+        "id": "REQ-104",
+        "title": "Stripe & Credit Card Payment Gateway Integration",
+        "category": "Payments",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Processes online payment via Stripe API tokenization.",
+        "version": "1.0",
+        "author": "Dave (Tech Lead)"
+      },
+      {
+        "id": "REQ-105",
+        "title": "Order History & Invoice Generation",
+        "category": "Orders",
+        "priority": "MEDIUM",
+        "status": "APPROVED",
+        "description": "Generates PDF invoice and email confirmation upon completed purchase.",
+        "version": "1.0",
+        "author": "Alice (PM)"
+      }
+    ]
+  },
+  {
+    "rev_id": 2,
+    "revision_number": "r2",
+    "branch": "main",
+    "timestamp": "2026-08-29 11:41:59",
+    "author": "Reviewer <reviewer@project.com>",
+    "message": "r2: Modify REQ-101 specification details",
+    "changed_req_id": "REQ-101",
+    "snapshot": [
+      {
+        "id": "REQ-101",
+        "title": "User Authentication & Sign-in",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "APPROVED",
+        "description": "User sign-in using email address and password credentials.",
+        "version": "1.1",
+        "author": "Alice (Product Manager)"
+      },
+      {
+        "id": "REQ-102",
+        "title": "Two-Factor Authentication (OTP)",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "PROPOSED",
+        "description": "Optional SMS/Email One-Time Password verification upon user sign-in.",
+        "version": "1.1",
+        "author": "Bob (Security Lead)"
+      },
+      {
+        "id": "REQ-103",
+        "title": "Shopping Cart & Checkout Flow",
+        "category": "E-Commerce Core",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Allows registered users to add items to cart, calculate tax, and proceed to payment.",
+        "version": "1.0",
+        "author": "Charlie (PM)"
+      },
+      {
+        "id": "REQ-104",
+        "title": "Stripe & Credit Card Payment Gateway Integration",
+        "category": "Payments",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Processes online payment via Stripe API tokenization.",
+        "version": "1.0",
+        "author": "Dave (Tech Lead)"
+      },
+      {
+        "id": "REQ-105",
+        "title": "Order History & Invoice Generation",
+        "category": "Orders",
+        "priority": "MEDIUM",
+        "status": "APPROVED",
+        "description": "Generates PDF invoice and email confirmation upon completed purchase.",
+        "version": "1.0",
+        "author": "Alice (PM)"
+      }
+    ]
+  },
+  {
+    "rev_id": 3,
+    "revision_number": "r3",
+    "branch": "main",
+    "timestamp": "2026-08-29 11:43:33",
+    "author": "Reviewer <reviewer@project.com>",
+    "message": "r3: Modify REQ-103 specification details",
+    "changed_req_id": "REQ-103",
+    "snapshot": [
+      {
+        "id": "REQ-101",
+        "title": "User Authentication & Sign-in",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "APPROVED",
+        "description": "User sign-in using email address and password credentials.",
+        "version": "1.1",
+        "author": "Alice (Product Manager)"
+      },
+      {
+        "id": "REQ-102",
+        "title": "Two-Factor Authentication (OTP)",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "PROPOSED",
+        "description": "Optional SMS/Email One-Time Password verification upon user sign-in.",
+        "version": "1.1",
+        "author": "Bob (Security Lead)"
+      },
+      {
+        "id": "REQ-103",
+        "title": "Shopping Cart & Checkout Flow",
+        "category": "E-Commerce Core",
+        "priority": "LOW",
+        "status": "APPROVED",
+        "description": "Allows registered users to add items to cart, calculate tax, and proceed to payment.",
+        "version": "1.1",
+        "author": "Charlie (PM)"
+      },
+      {
+        "id": "REQ-104",
+        "title": "Stripe & Credit Card Payment Gateway Integration",
+        "category": "Payments",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Processes online payment via Stripe API tokenization.",
+        "version": "1.0",
+        "author": "Dave (Tech Lead)"
+      },
+      {
+        "id": "REQ-105",
+        "title": "Order History & Invoice Generation",
+        "category": "Orders",
+        "priority": "MEDIUM",
+        "status": "APPROVED",
+        "description": "Generates PDF invoice and email confirmation upon completed purchase.",
+        "version": "1.0",
+        "author": "Alice (PM)"
+      }
+    ]
+  },
+  {
+    "rev_id": 4,
+    "revision_number": "r4",
+    "branch": "main",
+    "timestamp": "2026-09-17 13:37:36",
+    "author": "Reviewer <reviewer@project.com>",
+    "message": "r4: Modify REQ-101 specification details",
+    "changed_req_id": "REQ-101",
+    "snapshot": [
+      {
+        "id": "REQ-101",
+        "title": "User Authentication & Sign-in",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "APPROVED",
+        "description": "User sign-in using email address and password credentials.",
+        "version": "1.1",
+        "author": "Alice (Product Manager)"
+      },
+      {
+        "id": "REQ-102",
+        "title": "Two-Factor Authentication (OTP)",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "PROPOSED",
+        "description": "Optional SMS/Email One-Time Password verification upon user sign-in.",
+        "version": "1.1",
+        "author": "Bob (Security Lead)"
+      },
+      {
+        "id": "REQ-103",
+        "title": "Shopping Cart & Checkout Flow",
+        "category": "E-Commerce Core",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Allows registered users to add items to cart, calculate tax, and proceed to payment.",
+        "version": "1.0",
+        "author": "Charlie (PM)"
+      },
+      {
+        "id": "REQ-104",
+        "title": "Stripe & Credit Card Payment Gateway Integration",
+        "category": "Payments",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Processes online payment via Stripe API tokenization.",
+        "version": "1.0",
+        "author": "Dave (Tech Lead)"
+      },
+      {
+        "id": "REQ-105",
+        "title": "Order History & Invoice Generation",
+        "category": "Orders",
+        "priority": "MEDIUM",
+        "status": "APPROVED",
+        "description": "Generates PDF invoice and email confirmation upon completed purchase.",
+        "version": "1.0",
+        "author": "Alice (PM)"
+      }
+    ]
+  },
+  {
+    "rev_id": 5,
+    "revision_number": "r5",
+    "branch": "main",
+    "timestamp": "2026-09-17 15:15:50",
+    "author": "Reviewer <reviewer@project.com>",
+    "message": "r5: Modify REQ-101 specification details",
+    "changed_req_id": "REQ-101",
+    "snapshot": [
+      {
+        "id": "REQ-101",
+        "title": "User Authentication & Sign-in",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "APPROVED",
+        "description": "User sign-in using email address and password credentials.",
+        "version": "1.2",
+        "author": "Alice (Product Manager)"
+      },
+      {
+        "id": "REQ-102",
+        "title": "Two-Factor Authentication (OTP)",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "PROPOSED",
+        "description": "Optional SMS/Email One-Time Password verification upon user sign-in.",
+        "version": "1.1",
+        "author": "Bob (Security Lead)"
+      },
+      {
+        "id": "REQ-103",
+        "title": "Shopping Cart & Checkout Flow",
+        "category": "E-Commerce Core",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Allows registered users to add items to cart, calculate tax, and proceed to payment.",
+        "version": "1.0",
+        "author": "Charlie (PM)"
+      },
+      {
+        "id": "REQ-104",
+        "title": "Stripe & Credit Card Payment Gateway Integration",
+        "category": "Payments",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Processes online payment via Stripe API tokenization.",
+        "version": "1.0",
+        "author": "Dave (Tech Lead)"
+      },
+      {
+        "id": "REQ-105",
+        "title": "Order History & Invoice Generation",
+        "category": "Orders",
+        "priority": "MEDIUM",
+        "status": "APPROVED",
+        "description": "Generates PDF invoice and email confirmation upon completed purchase.",
+        "version": "1.0",
+        "author": "Alice (PM)"
+      }
+    ]
+  },
+  {
+    "rev_id": 1,
+    "revision_number": "r1",
+    "branch": "main",
+    "timestamp": "2026-09-17 15:42:39",
+    "author": "Software Architect <architect@project.com>",
+    "message": "r6: Verified Bazaar CLI integration commit",
+    "changed_req_id": "REQ-101",
+    "snapshot": [
+      {
+        "id": "REQ-101",
+        "title": "User Authentication & Sign-in",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "APPROVED",
+        "description": "User sign-in using email address and password credentials.",
+        "version": "1.0",
+        "author": "Alice (Product Manager)"
+      },
+      {
+        "id": "REQ-102",
+        "title": "Two-Factor Authentication (OTP)",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "PROPOSED",
+        "description": "Optional SMS/Email One-Time Password verification upon user sign-in.",
+        "version": "1.1",
+        "author": "Bob (Security Lead)"
+      },
+      {
+        "id": "REQ-103",
+        "title": "Shopping Cart & Checkout Flow",
+        "category": "E-Commerce Core",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Allows registered users to add items to cart, calculate tax, and proceed to payment.",
+        "version": "1.0",
+        "author": "Charlie (PM)"
+      },
+      {
+        "id": "REQ-104",
+        "title": "Stripe & Credit Card Payment Gateway Integration",
+        "category": "Payments",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Processes online payment via Stripe API tokenization.",
+        "version": "1.0",
+        "author": "Dave (Tech Lead)"
+      },
+      {
+        "id": "REQ-105",
+        "title": "Order History & Invoice Generation",
+        "category": "Orders",
+        "priority": "MEDIUM",
+        "status": "APPROVED",
+        "description": "Generates PDF invoice and email confirmation upon completed purchase.",
+        "version": "1.0",
+        "author": "Alice (PM)"
+      }
+    ]
+  },
+  {
+    "rev_id": 1,
+    "revision_number": "r1",
+    "branch": "main",
+    "timestamp": "2026-10-03 22:05:22",
+    "author": "System Architect <architect@project.com>",
+    "message": "SCM: Added dependency link REQ-101 -> REQ-102 (DEPENDS_ON)",
+    "changed_req_id": "REQ-101",
+    "snapshot": [
+      {
+        "id": "REQ-101",
+        "title": "User Authentication & Sign-in",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "APPROVED",
+        "description": "User sign-in using email address and password credentials.",
+        "version": "1.0",
+        "author": "Alice (Product Manager)"
+      },
+      {
+        "id": "REQ-102",
+        "title": "Two-Factor Authentication (OTP)",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "PROPOSED",
+        "description": "Optional SMS/Email One-Time Password verification upon user sign-in.",
+        "version": "1.1",
+        "author": "Bob (Security Lead)"
+      },
+      {
+        "id": "REQ-103",
+        "title": "Shopping Cart & Checkout Flow",
+        "category": "E-Commerce Core",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Allows registered users to add items to cart, calculate tax, and proceed to payment.",
+        "version": "1.0",
+        "author": "Charlie (PM)"
+      },
+      {
+        "id": "REQ-104",
+        "title": "Stripe & Credit Card Payment Gateway Integration",
+        "category": "Payments",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Processes online payment via Stripe API tokenization.",
+        "version": "1.0",
+        "author": "Dave (Tech Lead)"
+      },
+      {
+        "id": "REQ-105",
+        "title": "Order History & Invoice Generation",
+        "category": "Orders",
+        "priority": "MEDIUM",
+        "status": "APPROVED",
+        "description": "Generates PDF invoice and email confirmation upon completed purchase.",
+        "version": "1.0",
+        "author": "Alice (PM)"
+      }
+    ]
+  },
+  {
+    "rev_id": 1,
+    "revision_number": "r1",
+    "branch": "main",
+    "timestamp": "2026-10-03 23:47:15",
+    "author": "System Architect <architect@project.com>",
+    "message": "SCM: Added dependency link REQ-102 -> REQ-103 (DEPENDS_ON)",
+    "changed_req_id": "REQ-102",
+    "snapshot": [
+      {
+        "id": "REQ-101",
+        "title": "User Authentication & Sign-in",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "APPROVED",
+        "description": "User sign-in using email address and password credentials.",
+        "version": "1.0",
+        "author": "Alice (Product Manager)"
+      },
+      {
+        "id": "REQ-102",
+        "title": "Two-Factor Authentication (OTP)",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "PROPOSED",
+        "description": "Optional SMS/Email One-Time Password verification upon user sign-in.",
+        "version": "1.1",
+        "author": "Bob (Security Lead)"
+      },
+      {
+        "id": "REQ-103",
+        "title": "Shopping Cart & Checkout Flow",
+        "category": "E-Commerce Core",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Allows registered users to add items to cart, calculate tax, and proceed to payment.",
+        "version": "1.0",
+        "author": "Charlie (PM)"
+      },
+      {
+        "id": "REQ-104",
+        "title": "Stripe & Credit Card Payment Gateway Integration",
+        "category": "Payments",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Processes online payment via Stripe API tokenization.",
+        "version": "1.0",
+        "author": "Dave (Tech Lead)"
+      },
+      {
+        "id": "REQ-105",
+        "title": "Order History & Invoice Generation",
+        "category": "Orders",
+        "priority": "MEDIUM",
+        "status": "APPROVED",
+        "description": "Generates PDF invoice and email confirmation upon completed purchase.",
+        "version": "1.0",
+        "author": "Alice (PM)"
+      }
+    ]
+  },
+  {
+    "rev_id": 1,
+    "revision_number": "r1",
+    "branch": "main",
+    "timestamp": "2026-10-03 23:47:25",
+    "author": "System Architect <architect@project.com>",
+    "message": "SCM: Added dependency link REQ-101 -> REQ-102 (DEPENDS_ON)",
+    "changed_req_id": "REQ-101",
+    "snapshot": [
+      {
+        "id": "REQ-101",
+        "title": "User Authentication & Sign-in",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "APPROVED",
+        "description": "User sign-in using email address and password credentials.",
+        "version": "1.0",
+        "author": "Alice (Product Manager)"
+      },
+      {
+        "id": "REQ-102",
+        "title": "Two-Factor Authentication (OTP)",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "PROPOSED",
+        "description": "Optional SMS/Email One-Time Password verification upon user sign-in.",
+        "version": "1.1",
+        "author": "Bob (Security Lead)"
+      },
+      {
+        "id": "REQ-103",
+        "title": "Shopping Cart & Checkout Flow",
+        "category": "E-Commerce Core",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Allows registered users to add items to cart, calculate tax, and proceed to payment.",
+        "version": "1.0",
+        "author": "Charlie (PM)"
+      },
+      {
+        "id": "REQ-104",
+        "title": "Stripe & Credit Card Payment Gateway Integration",
+        "category": "Payments",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Processes online payment via Stripe API tokenization.",
+        "version": "1.0",
+        "author": "Dave (Tech Lead)"
+      },
+      {
+        "id": "REQ-105",
+        "title": "Order History & Invoice Generation",
+        "category": "Orders",
+        "priority": "MEDIUM",
+        "status": "APPROVED",
+        "description": "Generates PDF invoice and email confirmation upon completed purchase.",
+        "version": "1.0",
+        "author": "Alice (PM)"
+      }
+    ]
+  },
+  {
+    "rev_id": 2,
+    "revision_number": "r2",
+    "branch": "main",
+    "timestamp": "2026-10-22 11:50:47",
+    "author": "Reviewer <reviewer@project.com>",
+    "message": "r10: Modify REQ-101 specification details",
+    "changed_req_id": "REQ-101",
+    "snapshot": [
+      {
+        "id": "REQ-101",
+        "title": "User Authentication & Sign-in",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "APPROVED",
+        "description": "User sign-in using email address and password credentials.",
+        "version": "1.1",
+        "author": "Alice (Product Manager)"
+      },
+      {
+        "id": "REQ-102",
+        "title": "Two-Factor Authentication (OTP)",
+        "category": "Security & Identity",
+        "priority": "HIGH",
+        "status": "PROPOSED",
+        "description": "Optional SMS/Email One-Time Password verification upon user sign-in.",
+        "version": "1.1",
+        "author": "Bob (Security Lead)"
+      },
+      {
+        "id": "REQ-103",
+        "title": "Shopping Cart & Checkout Flow",
+        "category": "E-Commerce Core",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Allows registered users to add items to cart, calculate tax, and proceed to payment.",
+        "version": "1.0",
+        "author": "Charlie (PM)"
+      },
+      {
+        "id": "REQ-104",
+        "title": "Stripe & Credit Card Payment Gateway Integration",
+        "category": "Payments",
+        "priority": "CRITICAL",
+        "status": "APPROVED",
+        "description": "Processes online payment via Stripe API tokenization.",
+        "version": "1.0",
+        "author": "Dave (Tech Lead)"
+      },
+      {
+        "id": "REQ-105",
+        "title": "Order History & Invoice Generation",
+        "category": "Orders",
+        "priority": "MEDIUM",
+        "status": "APPROVED",
+        "description": "Generates PDF invoice and email confirmation upon completed purchase.",
+        "version": "1.0",
+        "author": "Alice (PM)"
+      }
+    ]
+  }
+]
